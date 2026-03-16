@@ -24,8 +24,6 @@ crisis](https://italianpoliticalscience.com/index.php/ips/article/view/198), *It
 
 ## Book Chapters
 
-- Author, “Chapter Title,” in *Book Title*, publisher, year.
-
 4. Panaro Angelo Vito, “The Politics of the Welfare State in Authoritarian Regimes”, In: Maureen A. Eger (ed.), A Research Agenda for the Political Sociology of Welfare, Eger.UK: **Edward Elgar**, Forthcoming, 2026
 3. Shahini Viola, Panaro Angelo Vito, Jessoula Matteo [The Politics of Minimum Income Protection in the EU: The long road to a Council Recommendation](https://www.etui.org/sites/default/files/2024-06/05-The%20politics%20of%20minimum%20income%20protection%20in%20the%20EU-the%20long%20road%20to%20a%20Council%20Recommendation.pdf), In: Vanhercke B., Sabato S. and Spasova S. (eds) *Social policy in the European Union: State of play 2023, An ambitious implementation of Social Pillar*, Brussels, **ETUI and OSE Publications**, ISBN: 978-2-87452-706-7, 2024
 2. Panaro Angelo Vito, [Delivering on Legitimation Strategies: Creating Access for CSOs in Authoritarian Regimes](https://www.jstor.org/content/oa_chapter_edited/10.3998/mpub.12414985.17?seq=1), In: Grömping Max and Teets Jessica (eds.) *Lobbying the Autocrats: Dynamics of policy advocacy in non-democracies*, **University of Michigan Press**, 2023
