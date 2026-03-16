@@ -36,12 +36,12 @@ author:
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=u8_cqnQAAAAJ&hl=it"
   orcid            : "https://orcid.org/0000-0002-6585-6083"
-  researchgate     : "https://www.researchgate.net/profile/Angelo_Vito_Panaro?ev=hdr_xprf" # URL
+  researchgate     : "https://www.researchgate.net/profile/Angelo_Vito_Panaro" # URL
 
 
   # Social media
-  bluesky          : "angelovpanaro" # Replace this with you Bluesky username
-  linkedin         : "angelovitopanaro" # Username
+  bluesky          : "angelovpanaro.bsky.social" # Replace this with you Bluesky username
+  linkedin         : "angelo-vito-panaro-88b66741" # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
