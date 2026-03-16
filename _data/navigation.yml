@@ -10,21 +10,21 @@
 main:
   - title: "Home"
     url: /home/
-    
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Book project"
+  - title: "Book Project"
     url: /portfolio/
-    
+
   - title: "Teaching"
     url: /teaching/
-        
-  - title: "Media&Policy"
+
+  - title: "Media & Policy"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
 
   - title: "News"
     url: /news/
+
+  - title: "CV"
+    url: /cv/
