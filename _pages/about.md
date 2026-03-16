@@ -31,9 +31,9 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
     <ul>
       <li>Authoritarian regimes</li>
       <li>Democratic backsliding</li>
-      <li>Comparative Welfare States</li>
-      <li>Politics of Social Policy</li>
-      <li>Socio-Economic Inequalities</li>
+      <li>Comparative welfare states</li>
+      <li>Politics of social policy</li>
+      <li>Socio-economic inequalities</li>
     </ul>
   </div>
 
