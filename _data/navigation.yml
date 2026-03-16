@@ -9,16 +9,16 @@
 
 main:
   - title: "News"
-    url: /talks/    
+    url: /talks/
     
   - title: "Publications"
     url: /publications/
 
- - title: "Book project"
+  - title: "Book project"
     url: /portfolio/
     
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
         
   - title: "Media and public outreach"
     url: /year-archive/
