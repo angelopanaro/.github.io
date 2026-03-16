@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-
+<br>
+<br>
 
 Welcome to my website! 
 
@@ -17,11 +18,10 @@ Prior to joining FAU, I was an adjunct professor in the [University of Bologna](
 
 My research focuses on authoritarian regimes, democratic backsliding, comparative welfare states, the politics of social policy, global social redistribution, and socio-economic inequalities. My work has been published in *Democratization*, *Contemporary Politics*, *Journal of International and Comparative Social Policy*, *International Journal of Educational Research*, *Review of Policy Research*, *Social Policies/Politiche Sociali*, *Italian Political Science Review*, among other journals. Since 2023, I have regularly contributed to the [Global Social Policy Digest](https://journals.sagepub.com/home/gsp).
 
-I am currently serving as the coordinator of the [Italian Political Science (SISP) Standing Group ‘Political Regimes’](https://standinggroups.sisp.it/politicalregimes/) (with Dr. Tiziana Corda) and in 2022 he was awarded the [Carlo Maria Santoro Prize](https://www.sisp.it/premio-carlo-maria-santoro#:~:text=Il%20Premio%20annuale%20%E2%80%9CCarlo%20Maria,degli%20autori%20e%20delle%20autrici.) for the best paper presented by an early-career researcher at the SISP Conference (co-authored with Dr. Andrea Vaccaro). 
+I am currently serving as the coordinator of the [Italian Political Science (SISP) Standing Group ‘Political Regimes’](https://standinggroups.sisp.it/politicalregimes/) (with Dr. Tiziana Corda) and in 2022 I was awarded the [Carlo Maria Santoro Prize](https://www.sisp.it/premio-carlo-maria-santoro#:~:text=Il%20Premio%20annuale%20%E2%80%9CCarlo%20Maria,degli%20autori%20e%20delle%20autrici.) for the best paper presented by an early-career researcher at the SISP Conference (co-authored with Dr. Andrea Vaccaro). 
 
-
-
-
+<br>
+<br>
 
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
