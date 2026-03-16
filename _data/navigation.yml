@@ -12,21 +12,16 @@ main:
     url: /about/
 
   - title: "Research"
-    children:
-      - title: "Publications"
-        url: /publications/
-      - title: "Book Project"
-        url: /portfolio/
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Public Engagement"
-    children:
-      - title: "Media & Policy"
-        url: /year-archive/
-      - title: "News"
-        url: /news/
+  - title: "Media & Policy"
+    url: /year-archive/
+
+  - title: "News"
+    url: /news/
 
   - title: "CV"
     url: /cv/
