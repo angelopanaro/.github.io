@@ -5,7 +5,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-# Teaching
 
 ### Friedrich-Alexander University Erlangen-Nürnberg (FAU)
 
