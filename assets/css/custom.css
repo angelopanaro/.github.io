@@ -8,17 +8,31 @@ html {
 }
 
 /* -----------------------------
-   Toolbar / header
+   Toolbar / header full override
 ----------------------------- */
 .Header {
     background-color: #003366 !important; /* dark blue toolbar */
 }
 
+/* Toolbar links (menu items) */
 .Header-link,
 .Header-link:hover,
 .Header-nav-link,
-.Header-nav-link:hover {
-    color: #ffffff !important; /* white toolbar titles and links */
+.Header-nav-link:hover,
+.Header-item,
+.Header-item a,
+.Header-item a:hover,
+.Header-item--brand,
+.Header-item--brand a {
+    color: #ffffff !important; /* white text for all links and site title */
+}
+
+/* Optional: hover effect for toolbar items */
+.Header-link:hover,
+.Header-nav-link:hover,
+.Header-item a:hover,
+.Header-item--brand a:hover {
+    color: #cccccc !important; /* lighter white on hover */
 }
 
 /* -----------------------------
