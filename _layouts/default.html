@@ -8,16 +8,26 @@ layout: compress
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
     {% include head.html %}
+
+    <!-- Custom CSS for site colors -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
     {% include head/custom.html %}
   </head>
 
   <body>
 
     {% include browser-upgrade.html %}
+
+    <!-- Masthead / Toolbar -->
     {% include masthead.html %}
 
-    {{ content }}
+    <!-- Main content -->
+    <main>
+      {{ content }}
+    </main>
 
+    <!-- Footer -->
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
