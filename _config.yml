@@ -27,9 +27,9 @@ author:
   name             : "Angelo Vito Panaro"
   pronouns         :  # example: "she/her"  
   bio              : "Postdoctoral Researcher, 
-  Friedrich-Alexander-University Erlangen-Nuremberg, Institute of Political Science"
+  Friedrich-Alexander-University (FAU), Institute of Political Science"
   location         : "Erlangen"
-  employer         : "FAU - Institute of Political Science"
+  employer         : 
   uri              :  "https://www.pol.phil.fau.eu/person/angelo-vito-panaro/" # URL
   email            : "angelo.panaro@fau.de" 
 
@@ -37,7 +37,6 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=u8_cqnQAAAAJ&hl=it"
   orcid            : "https://orcid.org/0000-0002-6585-6083"
   researchgate     : "https://www.researchgate.net/profile/Angelo_Vito_Panaro" # URL
-
 
   # Social media
   bluesky          : "angelovpanaro.bsky.social" # Replace this with you Bluesky username
