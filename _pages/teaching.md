@@ -9,11 +9,11 @@ author_profile: true
 
 
 
-### Friedrich-Alexander University Erlangen-Nürnberg (FAU)
+## Friedrich-Alexander University Erlangen-Nürnberg (FAU)
 
 * **Social Policy in Authoritarian Regimes** *(Undergraduate)* — Spring 2025
 
-### Bielefeld University
+## Bielefeld University
 
 * **Politics of Social Policy** *(Graduate)* — Spring 2024
 * **Comparative Social Policy** *(Undergraduate)* — Fall 2023
@@ -21,7 +21,7 @@ author_profile: true
 * **World Studies: Basic Concepts and Theories** *(Graduate, Mentor)* — Fall 2023
 
   
-### University of Bologna
+## University of Bologna
 
 * **Political Science** *(Undergraduate)* — Spring 2024
 * **Political Science** *(Undergraduate)* — Spring 2023
@@ -32,13 +32,13 @@ author_profile: true
 * **Crash Course in International Economics** *(Graduate)* — Fall 2019
 
 
-### University of Milan
+## University of Milan
 
 * **Comparative Welfare States** *(Graduate, Teaching Assistant)* — Spring 2023
 * **Comparative Welfare States** *(Graduate, Teaching Assistant)* — Spring 2022
 * **Politica Sociale Comparata** *(Graduate, Teaching Assistant)* — Spring 2022
 
-### National Social Security Institute (INPS)
+## National Social Security Institute (INPS)
 
 * **Management of Social Welfare Policy** *(Graduate)* — Fall 2022
 
