@@ -39,37 +39,13 @@ author:
   bluesky          : "angelovpanaro.bsky.social" # Replace this with you Bluesky username
   linkedin         : "angelo-vito-panaro-88b66741" # Username
 
-# -----------------------------
-# Basic Site Settings
-# -----------------------------
-locale                   : "en-US"
-title                    : "Lolli"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description ""
-url                      : "https://Lolli.github.io"
-baseurl                  : ""
-repository               : "Lolli/Lolli.github.io"
-
-# -----------------------------
-# Theme & Navbar Customization
-# -----------------------------
-theme: "air"          # Base theme
+# Theme & Color Mode
+theme: "air"
 color_mode:
-  default: light      # Force light mode
-  toggle: false       # Hide the dark/light mode toggle button
+  default: light
+  toggle: false  # hides the light/dark toggle
 
-# Apply custom CSS to style navbar colors
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      custom_css: "/assets/css/custom.css"
-
-# -----------------------------
 # Publication Categories
-# -----------------------------
 publication_category:
   journal_articles:
     title: 'Articles in peer-reviewed journals'
@@ -86,115 +62,13 @@ publication_category:
   open_pieces:
     title: 'Open Pieces'
 
-# -----------------------------
 # Site Settings
-# -----------------------------
-teaser                   :
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-comments:
-  provider               :
-  disqus:
-    shortname            :
-  discourse:
-    server               :
-  facebook:
-    appid                :
-    num_posts            :
-    colorscheme          :
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
-atom_feed:
-  hide                   : false
-  path                    :
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
 
-# -----------------------------
-# Analytics
-# -----------------------------
-analytics:
-  provider               : "false"
-  google:
-    tracking_id          :
-
-# -----------------------------
-# File Inclusion & Exclusion
-# -----------------------------
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# -----------------------------
-# Markdown & Output
-# -----------------------------
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# -----------------------------
 # Collections
-# -----------------------------
 collections:
   teaching:
     output: true
@@ -209,9 +83,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# -----------------------------
-# Defaults for Pages & Collections
-# -----------------------------
+# Defaults for pages and posts
 defaults:
   - scope:
       path: ""
@@ -229,54 +101,17 @@ defaults:
     values:
       layout: single
       author_profile: true
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
-# -----------------------------
 # Sass/SCSS
-# -----------------------------
 sass:
   sass_dir: _sass
   style: compressed
 
-# -----------------------------
-# Permalinks & Timezone
-# -----------------------------
+# Permalinks
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
-# -----------------------------
 # Plugins
-# -----------------------------
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -285,9 +120,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# -----------------------------
 # Archives
-# -----------------------------
 category_archive:
   type: liquid
   path: /categories/
@@ -295,11 +128,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# -----------------------------
 # HTML Compression
-# -----------------------------
 compress_html:
   clippings: all
   ignore:
     envs: development
-
