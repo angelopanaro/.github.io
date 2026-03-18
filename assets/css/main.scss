@@ -83,6 +83,14 @@
   background: #ffffff !important;
 }
 
+/* Disable hyperlink for the first nav item (your name) */
+#site-nav.greedy-nav .visible-links > li.masthead__menu-item--lg a {
+  pointer-events: none;  /* disables clicking */
+  cursor: default;        /* normal cursor */
+  text-decoration: none;  /* remove underline */
+  color: #ffffff !important; /* keep text white */
+}
+
 /* Hide dark/light mode toggle */
 #theme-toggle,
 button[aria-label*="theme"],
