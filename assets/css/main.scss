@@ -43,20 +43,21 @@
 ;
 
 /* =========================================================
-   CUSTOM NAVBAR STYLING
+   CUSTOM NAVBAR STYLING FOR ACADEMIC THEME
    ========================================================= */
-/* Blue top toolbar only */
+
+/* Dark blue toolbar */
 .masthead {
-  background-color: #0b2a5b !important;
+  background-color: #003366 !important;
 }
 
-/* Make only the visible tab names white */
+/* Make ONLY the visible tab names white */
 .greedy-nav .visible-links a,
 .greedy-nav .site-title {
   color: #ffffff !important;
 }
 
-/* Keep visible tab names white on hover/focus */
+/* Keep them white on hover */
 .greedy-nav .visible-links a:hover,
 .greedy-nav .visible-links a:focus,
 .greedy-nav .site-title:hover,
@@ -64,17 +65,14 @@
   color: #ffffff !important;
 }
 
-/* Optional: make mobile hamburger icon white */
+/* Mobile hamburger icon white */
 .greedy-nav .navicon,
 .greedy-nav .navicon:before,
 .greedy-nav .navicon:after {
   background: #ffffff !important;
 }
 
-/* =========================================================
-   HIDE DARK/LIGHT MODE TOGGLE ICON
-   ========================================================= */
-
+/* Hide dark/light mode toggle if present */
 .theme-toggle,
 .dark-mode-toggle,
 #theme-toggle,
