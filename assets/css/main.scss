@@ -45,70 +45,41 @@
    FULL NAVBAR FIX - TOOLBAR + TABS
    ========================================================= */
 
-/* 1. Dark blue toolbar (entire top bar) */
+/* Full dark blue toolbar */
 .masthead {
   background-color: #003366 !important;
 }
 
-/* =========================================================
-   FULL NAVBAR FIX - TOOLBAR + TABS
-   ========================================================= */
-
-/* 1. Dark blue toolbar (entire top bar) */
-.masthead {
-  background-color: #003366 !important; /* dark blue full toolbar */
+/* Nav container + visible/hidden links inside masthead */
+.masthead #site-nav,
+.masthead #site-nav .visible-links,
+.masthead #site-nav .hidden-links {
+  background-color: #003366 !important;
 }
 
-
-/* 4. Keep tab names white on hover/focus */
-#site-nav .masthead__menu-item a:hover,
-#site-nav .masthead__menu-item a:focus {
-  color: #ffffff !important;
-  background: transparent !important;
-  border-color: transparent !important;
-}
-
-/* 5. Mobile hamburger icon white */
-#site-nav .navicon,
-#site-nav .navicon:before,
-#site-nav .navicon:after {
-  background: #ffffff !important;
-}
-
-/* 6. Hide dark/light mode toggle */
-#theme-toggle,
-.theme-toggle,
-.dark-mode-toggle,
-button[aria-label*="theme"],
-button[aria-label*="dark"],
-button[title*="theme"],
-button[title*="dark"] {
-  display: none !important;
-}
-
-/* 2. Tab names white */
-#site-nav .masthead__menu-item a {
+/* Tab names white */
+.masthead #site-nav .masthead__menu-item a {
   color: #ffffff !important;
   background: transparent !important;
   text-decoration: none;
 }
 
-/* 4. Keep tab names white on hover/focus */
-#site-nav .masthead__menu-item a:hover,
-#site-nav .masthead__menu-item a:focus {
+/* Hover/focus tabs stay white, no background box */
+.masthead #site-nav .masthead__menu-item a:hover,
+.masthead #site-nav .masthead__menu-item a:focus {
   color: #ffffff !important;
   background: transparent !important;
   border-color: transparent !important;
 }
 
-/* 5. Mobile hamburger icon white */
-#site-nav .navicon,
-#site-nav .navicon:before,
-#site-nav .navicon:after {
+/* Mobile hamburger icon white */
+.masthead #site-nav .navicon,
+.masthead #site-nav .navicon:before,
+.masthead #site-nav .navicon:after {
   background: #ffffff !important;
 }
 
-/* 6. Hide dark/light mode toggle */
+/* Hide dark/light mode toggle */
 #theme-toggle,
 .theme-toggle,
 .dark-mode-toggle,
