@@ -6,7 +6,8 @@ author_profile: true
 classes: wide
 ---
 
-
+<br>
+<br>
 
 My research focuses on comparative politics, particularly the study of authoritarian regimes and regime changes, comparative welfare states, social policy, and socio-economic inequalities.
 
