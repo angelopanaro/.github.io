@@ -42,32 +42,44 @@
 ;
 
 /* =========================================================
-   FULL NAVBAR FIX - REMOVE WHITE STRIPE
+   FULL NAVBAR FIX - TOOLBAR + TABS
    ========================================================= */
 
-/* Dark blue toolbar for nav container and lists */
+/* 1. Dark blue toolbar (entire top bar) */
+.masthead {
+  background-color: #003366 !important;
+}
+
+/* 2. Dark blue nav container behind tabs */
 #site-nav,
 #site-nav .visible-links,
 #site-nav .hidden-links {
-  background-color: #003366 !important; /* dark blue */
+  background-color: #003366 !important;
 }
 
-/* Keep tab names white on hover/focus */ 
-#site-nav .masthead__menu-item a:hover, 
-#site-nav .masthead__menu-item a:focus { 
-    color: #ffffff !important; 
-    background: transparent !important; 
-    border-color: transparent !important; 
+/* 3. Tab names white */
+#site-nav .masthead__menu-item a {
+  color: #ffffff !important;
+  background: transparent !important;
+  text-decoration: none;
 }
 
-/* Mobile hamburger icon white */
+/* 4. Keep tab names white on hover/focus */
+#site-nav .masthead__menu-item a:hover,
+#site-nav .masthead__menu-item a:focus {
+  color: #ffffff !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+/* 5. Mobile hamburger icon white */
 #site-nav .navicon,
 #site-nav .navicon:before,
 #site-nav .navicon:after {
   background: #ffffff !important;
 }
 
-/* Hide dark/light mode toggle */
+/* 6. Hide dark/light mode toggle */
 #theme-toggle,
 .theme-toggle,
 .dark-mode-toggle,
