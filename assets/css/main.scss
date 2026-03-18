@@ -58,20 +58,6 @@
   background-color: transparent !important;
 }
 
-/* Make tab names white */
-#site-nav .masthead__menu-item a {
-  color: #ffffff !important;
-  text-decoration: none;
-}
-
-/* Keep tab names white on hover/focus */
-#site-nav .masthead__menu-item a:hover,
-#site-nav .masthead__menu-item a:focus {
-  color: #ffffff !important;
-  background: transparent !important;
-  border-color: transparent !important;
-}
-
 /* Mobile hamburger icon white */
 #site-nav .navicon,
 #site-nav .navicon:before,
