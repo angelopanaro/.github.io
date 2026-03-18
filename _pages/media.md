@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 classes: wide
 ---
+<br>
 
 ## Policy Reports
 - Kinzelbach Katrin, Lindberg Staffan I., Lott Lars Panaro Angelo Vito, [Academic Freedom Index 2026 Update](https://doi.org/10.25593/open-fau-2865), FAU Erlangen-Nürnberg and Varieties of Democracy Institute, 2025
