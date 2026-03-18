@@ -4,8 +4,7 @@
 /*
  * This file controls what is imported from /_sass
  *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Note that the files are processed in the order they are imported.
  */
 
 @import
@@ -43,12 +42,19 @@
 ;
 
 /* =========================================================
-   CUSTOM NAVBAR STYLING FOR ACADEMIC THEME
+   CUSTOM NAVBAR STYLING - FIX WHITE STRIPE
    ========================================================= */
 
 /* Dark blue toolbar */
 .masthead {
   background-color: #003366 !important;
+}
+
+/* Remove background from the menu container to eliminate white stripe */
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: transparent !important;
 }
 
 /* Make ONLY the visible tab names white */
@@ -57,12 +63,14 @@
   color: #ffffff !important;
 }
 
-/* Keep them white on hover */
+/* Keep tab names white on hover/focus and avoid white hover boxes */
 .greedy-nav .visible-links a:hover,
 .greedy-nav .visible-links a:focus,
 .greedy-nav .site-title:hover,
 .greedy-nav .site-title:focus {
   color: #ffffff !important;
+  background: transparent !important;
+  border-color: transparent !important;
 }
 
 /* Mobile hamburger icon white */
