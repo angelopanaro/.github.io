@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 ----------------------------- */
 .page-single h2:first-of-type,
 .article h2:first-of-type {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 /* -----------------------------
