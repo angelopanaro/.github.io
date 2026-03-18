@@ -9,6 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+color_more               : 
+default: light
+toggle: false
 title                    : "Angelo Vito Panaro"
 title_separator          : "-"
 name                     : &name "Your Name"
@@ -18,6 +21,7 @@ url                      : "https://angelopanaro.github.io" # The base hostname 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "angelopanaro/angelopanaro.github.io"
 
+  
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
