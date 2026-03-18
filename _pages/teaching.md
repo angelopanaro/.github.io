@@ -24,7 +24,7 @@ author_profile: true
 * **Political Science** *(Undergraduate)* — Spring 2024
 * **Political Science** *(Undergraduate)* — Spring 2023
 * **Political Science** *(Undergraduate, Teaching Assistant)* — Spring 2022
-* **Political Science** *(Undergraduate, Teaching Assistant, Forlì campus)* — Fall 2022
+* **Political Science** *(Undergraduate, Teaching Assistant)* — Fall 2022
 
 ### Department of Economics
 * **Crash Course in International Economics** *(Graduate)* — Fall 2022
