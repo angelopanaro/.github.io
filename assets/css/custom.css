@@ -1,10 +1,10 @@
 /* -----------------------------
    Page background and text
 ----------------------------- */
-body,
-html {
+html, body {
     background-color: #e0f7ff !important; /* light blue background */
     color: #222222 !important;            /* main text color */
+    overflow-x: hidden;                    /* prevent horizontal scrolling */
 }
 
 /* -----------------------------
@@ -34,21 +34,21 @@ html {
 .markdown-body a,
 .page-single a,
 .article a {
-    color: #0077cc !important;          /* bright blue links */
+    color: #0066cc !important;            /* bright blue links */
     text-decoration: underline;
 }
 
 .markdown-body a:hover,
 .page-single a:hover,
 .article a:hover {
-    color: #005599 !important;          /* darker blue on hover */
+    color: #005599 !important;            /* darker blue on hover */
 }
 
 /* -----------------------------
    Headings in content
 ----------------------------- */
 h1, h2, h3, h4, h5, h6 {
-    color: #005599 !important;          /* dark blue headings */
+    color: #005599 !important;            /* dark blue headings */
 }
 
 /* -----------------------------
@@ -60,10 +60,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  .page-single h2:first-of-type,
-  .article h2:first-of-type {
-    margin-top: 1rem;
-  }
+    .page-single h2:first-of-type,
+    .article h2:first-of-type {
+        margin-top: 1rem;
+    }
 }
 
 /* -----------------------------
@@ -83,63 +83,117 @@ ol.reversed li::before {
     font-weight: bold;
 }
 
-/* ===== Mobile Safety Fixes ===== */
-
-/* Prevent horizontal scrolling */
-html, body {
-  overflow-x: hidden;
-}
-
-/* Make media responsive */
+/* -----------------------------
+   Responsive media
+----------------------------- */
 img,
 iframe,
 video,
 embed,
 object {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-/* Prevent long text/URLs from overflowing */
+/* Prevent long text or URLs from overflowing */
 .page__content,
 .page,
 .archive,
 .sidebar,
 .author__content,
 .author__urls {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
-/* Make tables scroll instead of breaking layout */
+/* Tables scroll on small screens */
 table {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
-/* Make code blocks scroll horizontally */
+/* Code blocks scroll horizontally */
 pre {
-  overflow-x: auto;
-  max-width: 100%;
+    overflow-x: auto;
+    max-width: 100%;
 }
 
 /* Mobile layout adjustments */
 @media (max-width: 768px) {
-  .page {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+    .page,
+    .page-single,
+    .archive {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 
-  .sidebar {
-    width: 100%;
-    max-width: 100%;
-  }
+    .sidebar {
+        width: 100% !important;
+        max-width: 100% !important;
+        float: none !important;
+        margin-bottom: 1.5rem;
+    }
 
-  .author__avatar img {
-    max-width: 100%;
-    height: auto;
-  }
+    .author__avatar img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* =========================
+   Mobile menu readability fix
+   Keep desktop tabs white
+========================= */
+
+/* Keep desktop top nav links white */
+.greedy-nav a,
+.masthead a {
+    color: #ffffff !important;
+}
+
+/* Hamburger icon/button */
+.greedy-nav__toggle,
+.greedy-nav__toggle:hover {
+    color: #003366 !important;
+    background-color: transparent !important;
+    border-color: #003366 !important;
+}
+
+/* Mobile dropdown background */
+.greedy-nav .hidden-links {
+    background-color: #e0f7ff !important;
+    border: 1px solid #bcdde8 !important;
+}
+
+/* Mobile dropdown links = dark for readability */
+.greedy-nav .hidden-links a {
+    color: #003366 !important;
+    background-color: #e0f7ff !important;
+}
+
+/* Hover/tap state */
+.greedy-nav .hidden-links a:hover {
+    color: #005599 !important;
+    background-color: #d2f0fa !important;
 }
