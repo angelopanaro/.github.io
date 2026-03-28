@@ -34,23 +34,28 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
   </div>
 <div style="flex: 0 0 48%;">
   <strong>Education</strong>
-  <ul style="padding-left: 0; list-style: none;">
-    <li style="margin-bottom: 0.8em;">
-      <span style="margin-right: 0.3em; color: black;">&#x1F393;</span>
-        PhD in Political Science, 2021
-        <div style="font-size: 0.85em; margin-left: 1.8em;">Scuola Normale Superiore</div>
-      </li>
-      <li style="margin-bottom: 0.8em;">
-      <span style="margin-right: 0.3em; color: black;">&#x1F393;</span>
-        MA in Economics, 2016
-        <div style="font-size: 0.85em; margin-left: 1.8em;">Bocconi University</div>
-      </li>
-      <li>
-      <span style="margin-right: 0.3em; color: black;">&#x1F393;</span>
-        BA in Political Science, 2012
-        <div style="font-size: 0.85em; margin-left: 1.8em;">University of Bologna - Forlì campus</div>
-      </li>
-    </ul>
-  </div>
-
+  <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
+      <!-- Graduation cap SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.4em;">
+        <path d="M8 0L0 4l8 4 8-4-8-4zm0 5L2 2.5 8 0l6 2.5L8 5zM1 6v2l7 3.5V9H1zm14 0h-7v2.5L15 8V6z"/>
+      </svg>
+      PhD in Physics, 2012
+      <div style="font-size: 0.85em; margin-left: 1.8em;">Utrecht</div>
+    </li>
+    <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.4em;">
+        <path d="M8 0L0 4l8 4 8-4-8-4zm0 5L2 2.5 8 0l6 2.5L8 5zM1 6v2l7 3.5V9H1zm14 0h-7v2.5L15 8V6z"/>
+      </svg>
+      MA in Economics, 2016
+      <div style="font-size: 0.85em; margin-left: 1.8em;">University of Amsterdam</div>
+    </li>
+    <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.4em;">
+        <path d="M8 0L0 4l8 4 8-4-8-4zm0 5L2 2.5 8 0l6 2.5L8 5zM1 6v2l7 3.5V9H1zm14 0h-7v2.5L15 8V6z"/>
+      </svg>
+      BA in Science, 2014
+      <div style="font-size: 0.85em; margin-left: 1.8em;">Leiden University</div>
+    </li>
+  </ul>
 </div>
