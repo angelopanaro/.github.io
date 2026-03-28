@@ -1,4 +1,4 @@
-/* ----------------------------- 
+/* -----------------------------
    Page background and text
 ----------------------------- */
 html, body {
@@ -10,10 +10,13 @@ html, body {
 /* -----------------------------
    Sidebar
 ----------------------------- */
-.sidebar,
-.sidebar a {
+.sidebar {
     background-color: #f8f9fa !important; /* light gray sidebar */
-    color: #003366 !important;            /* dark blue links */
+}
+
+.sidebar a {
+    color: #003366 !important;            /* dark blue links in sidebar */
+    text-decoration: none;
 }
 
 .sidebar a:hover {
@@ -31,17 +34,27 @@ html, body {
 /* -----------------------------
    Links in page content
 ----------------------------- */
-.markdown-body a,
-.page-single a,
-.article a {
+.page__content a,
+.page a,
+.article a,
+.markdown-body a {
     color: #0066cc !important;            /* bright blue links */
-    text-decoration: underline;
+    text-decoration: none;                /* no underline by default */
 }
 
-.markdown-body a:hover,
-.page-single a:hover,
-.article a:hover {
+.page__content a:hover,
+.page a:hover,
+.article a:hover,
+.markdown-body a:hover {
     color: #005599 !important;            /* darker blue on hover */
+    text-decoration: underline;           /* underline on hover */
+}
+
+.page__content a:visited,
+.page a:visited,
+.article a:visited,
+.markdown-body a:visited {
+    color: #004080 !important;            /* slightly darker for visited links */
 }
 
 /* -----------------------------
@@ -161,12 +174,9 @@ pre {
     }
 }
 
-/* =========================
-   Mobile menu readability fix
-   Keep desktop tabs white
-========================= */
-
-/* Keep desktop top nav links white */
+/* -----------------------------
+   Top nav (keep existing white links)
+----------------------------- */
 .greedy-nav a,
 .masthead a {
     color: #ffffff !important;
