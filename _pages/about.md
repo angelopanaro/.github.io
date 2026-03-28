@@ -26,9 +26,8 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
     <strong>Research Interests</strong>
     <ul>
       <li>Authoritarian regimes and democratic backsliding</li>
-      <li>Comparative welfare states</li>
-      <li>Politics of social policy</li>
-      <li>Socio-economic inequalities</li>
+      <li>Social policy and comparative welfare states</li>
+      <li>Global redistribution and socio-economic inequalities</li>
       <li>Data analysis</li>
     </ul>
   </div>
