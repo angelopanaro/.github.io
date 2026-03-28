@@ -2,7 +2,7 @@
    Page background and text
 ----------------------------- */
 html, body {
-    background-color: #e0f7ff !important; /* light blue background */
+    background-color: #f5f5f5 !important; /* light blue background */
     color: #222222 !important;            /* main text color */
     overflow-x: hidden;                    /* prevent horizontal scrolling */
 }
