@@ -1,8 +1,8 @@
-/* -----------------------------
+/* ----------------------------- 
    Page background and text
 ----------------------------- */
 html, body {
-    background-color: #f5f5f5 !important; /* light blue background */
+    background-color: #f5f5f5 !important; /* light gray background */
     color: #222222 !important;            /* main text color */
     overflow-x: hidden;                    /* prevent horizontal scrolling */
 }
@@ -12,7 +12,7 @@ html, body {
 ----------------------------- */
 .sidebar,
 .sidebar a {
-    background-color: #e0f7ff !important; /* light blue sidebar */
+    background-color: #f5f5f5 !important; /* light gray sidebar */
     color: #003366 !important;            /* dark blue links */
 }
 
@@ -25,7 +25,7 @@ html, body {
 ----------------------------- */
 .card,
 .sidebar-card {
-    background-color: #f0faff !important; /* slightly lighter blue */
+    background-color: #ffffff !important; /* white cards for contrast */
 }
 
 /* -----------------------------
