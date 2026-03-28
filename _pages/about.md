@@ -35,27 +35,27 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
 <div style="flex: 0 0 48%;">
   <strong>Education</strong>
   <ul style="list-style: none; padding-left: 0;">
-    <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
-      <!-- Graduation cap SVG -->
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.4em;">
-        <path d="M8 0L0 4l8 4 8-4-8-4zm0 5L2 2.5 8 0l6 2.5L8 5zM1 6v2l7 3.5V9H1zm14 0h-7v2.5L15 8V6z"/>
-      </svg>
-      PhD in Physics, 2012
-      <div style="font-size: 0.85em; margin-left: 1.8em;">Utrecht</div>
-    </li>
-    <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.4em;">
-        <path d="M8 0L0 4l8 4 8-4-8-4zm0 5L2 2.5 8 0l6 2.5L8 5zM1 6v2l7 3.5V9H1zm14 0h-7v2.5L15 8V6z"/>
-      </svg>
-      MA in Economics, 2016
-      <div style="font-size: 0.85em; margin-left: 1.8em;">University of Amsterdam</div>
-    </li>
-    <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 0.4em;">
-        <path d="M8 0L0 4l8 4 8-4-8-4zm0 5L2 2.5 8 0l6 2.5L8 5zM1 6v2l7 3.5V9H1zm14 0h-7v2.5L15 8V6z"/>
-      </svg>
-      BA in Science, 2014
-      <div style="font-size: 0.85em; margin-left: 1.8em;">Leiden University</div>
-    </li>
-  </ul>
+  <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
+    <!-- Full Graduation Cap SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 64 64" style="margin-right: 0.5em;">
+      <path d="M32 0L0 16l32 16 32-16L32 0zm0 27.2L9.6 16 32 5.6 54.4 16 32 27.2zM8 24v16l24 9.6V40L8 24zm48 0L32 40v10.6L56 40V24z"/>
+    </svg>
+    PhD in Political Science, 2012
+    <div style="font-size: 0.85em; margin-left: 1.8em;">Scuola Normale Superiore</div>
+  </li>
+  <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 64 64" style="margin-right: 0.5em;">
+      <path d="M32 0L0 16l32 16 32-16L32 0zm0 27.2L9.6 16 32 5.6 54.4 16 32 27.2zM8 24v16l24 9.6V40L8 24zm48 0L32 40v10.6L56 40V24z"/>
+    </svg>
+    MA in Economics, 2016
+    <div style="font-size: 0.85em; margin-left: 1.8em;">Bocconi University</div>
+  </li>
+  <li style="margin-bottom: 0.8em; display: flex; align-items: center;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 64 64" style="margin-right: 0.5em;">
+      <path d="M32 0L0 16l32 16 32-16L32 0zm0 27.2L9.6 16 32 5.6 54.4 16 32 27.2zM8 24v16l24 9.6V40L8 24zm48 0L32 40v10.6L56 40V24z"/>
+    </svg>
+    BA in Political Science, 2012
+    <div style="font-size: 0.85em; margin-left: 1.8em;"> University of Bologna - Forlì campus</div>
+  </li>
+</ul>
 </div>
