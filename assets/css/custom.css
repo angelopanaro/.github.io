@@ -12,7 +12,7 @@ html, body {
 ----------------------------- */
 .sidebar,
 .sidebar a {
-    background-color: #f5f5f5 !important; /* light gray sidebar */
+    background-color: #f8f9fa !important; /* light gray sidebar */
     color: #003366 !important;            /* dark blue links */
 }
 
