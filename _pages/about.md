@@ -32,6 +32,7 @@ I am currently serving as the coordinator of the [Italian Political Science (SIS
       <li>Comparative welfare states</li>
       <li>Politics of social policy</li>
       <li>Socio-economic inequalities</li>
+      <li>Data analysis</li>
     </ul>
   </div>
 <div style="flex: 0 0 48%;">
